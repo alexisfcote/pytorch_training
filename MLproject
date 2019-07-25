@@ -1,0 +1,7 @@
+name: torch_train
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    command: "ipython torch_train.py"

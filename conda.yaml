@@ -1,0 +1,21 @@
+name: pytorch
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - pytorch 
+  - torchvision 
+  - cudatoolkit=10.0 
+  - numpy 
+  - scipy 
+  - matplotlib 
+  - pandas 
+  - seaborn 
+  - scikit-learn 
+  - dask 
+  - ipython 
+  - jupyterlab
+  - pip:
+    - mlflow
+    - tqdm
